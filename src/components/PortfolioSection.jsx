@@ -40,7 +40,7 @@ export default function PortfolioSection() {
       {selected && <div className="modal-backdrop" role="presentation" onClick={() => setSelected(null)}>
         <div className="detail-modal" role="dialog" aria-modal="true" onClick={e => e.stopPropagation()}>
           <button className="modal-close" onClick={() => setSelected(null)} aria-label="Close details"><X /></button>
-          {selected.type === 'project' ? <><p className="eyebrow">PROJECT DETAILS</p><h2>{selected.item.name}</h2><p>{selected.item.details}</p><h4>Key features</h4><ul>{selected.item.features.map(f => <li key={f}>{f}</li>)}</ul><h4>My contribution</h4><p>{selected.item.contribution}</p><div className="tag-list">{selected.item.technologies.map(t => <span key={t}>{t}</span>)}</div></> :
+                    {selected.type === 'project' ? <><p className="eyebrow">PROJECT DETAILS</p><h2>{selected.item.name}</h2><p>{selected.item.details}</p><p>{selected.item.demo && <><strong>Visit site:</strong> <a href={selected.item.demo} target="_blank" rel="noreferrer">{selected.item.demo.replace('https://', '')}</a><br /></>}{selected.item.note && <><strong>Note:</strong> {selected.item.note}</>}</p><h4>Key features</h4><ul>{selected.item.features.map(f => <li key={f}>{f}</li>)}</ul><h4>My contribution</h4><p>{selected.item.contribution}</p><div className="tag-list">{selected.item.technologies.map(t => <span key={t}>{t}</span>)}</div></> :
             <><p className="eyebrow">CERTIFICATE</p><h2>{selected.item.name}</h2><p>{selected.item.issuer} · {selected.item.date}</p><img className="modal-certificate" src={selected.item.image} alt={selected.item.name} /></>}
         </div>
       </div>}

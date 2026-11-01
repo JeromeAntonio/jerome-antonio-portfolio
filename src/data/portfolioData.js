@@ -7,10 +7,11 @@ export const projects = [
     description: 'A web-based subdivision monitoring and entry access control system designed to improve resident management, visitor registration, QR code verification, and incident monitoring.',
     contribution: 'Frontend Development',
     technologies: ['ReactJS', 'JavaScript', 'Tailwind CSS', 'Supabase'],
-    image: '/images/prima-access-preview.png',
-    demo: '',
+    image: '/images/Prima.png',
+    demo: 'https://prima-access.vercel.app',
     github: '',
-    details: 'Prima Access — Primavera Integrated Monitoring and Entry Access Control System with Complaint Monitoring — aims to make subdivision access processes more organized through resident accounts, visitor passes, QR verification, entry records, announcements, and incident reports.',
+    note: 'Resident accounts require HOA approval. Guard and admin access are restricted.',
+    details: 'Prima Access — Primavera Integrated Monitoring and Entry Access Control System with Complaint Monitoring — aims to make subdivision access processes more organized through resident accounts, visitor passes, QR verification, entry records, announcements, and incident reports. ',
     features: ['Resident and household management', 'Visitor registration and QR code verification', 'Guard entry and exit records', 'Announcements and incident monitoring'],
   },
 ]
@@ -21,7 +22,7 @@ export const certificates = [
     name: 'IT Specialist – HTML and CSS',
     issuer: 'Certiport, a Pearson VUE Business',
     date: 'October 28, 2026',
-    image: '/certificates/it-specialist-html-css.jpg',
+    image: '/certificates/Certiport.png',
     credential: '',
   },
   {
@@ -29,7 +30,7 @@ export const certificates = [
     name: 'Employability Skills: JobReady (With AI) v1 – Advanced Level',
     issuer: 'Wadhwani Foundation',
     date: 'October 30, 2026',
-    image: '/certificates/jobready-ai.jpg',
+    image: '/certificates/Wadhwani.png',
     credential: '',
   },
 ]

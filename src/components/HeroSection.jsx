@@ -19,7 +19,7 @@ export default function HeroSection() {
       <div className="hero-visual reveal">
         <div className="orbit orbit-one" /><div className="orbit orbit-two" />
         <div className="profile-frame">
-          <img src="/profile-placeholder.svg" alt="Jerome Antonio profile placeholder" />
+          <img src="/JeromePic.jpg" alt="Jerome Antonio profile placeholder" />
           <div className="frame-label"><span>JA</span><small>FRONTEND DEVELOPER</small></div>
         </div>
         <div className="floating-card"><span className="floating-symbol">&lt;/&gt;</span><div><strong>Learning by building</strong><small>One project at a time</small></div></div>

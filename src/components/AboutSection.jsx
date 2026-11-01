@@ -38,7 +38,7 @@ export default function AboutSection() {
     <section className="section-shell section-space" id="about">
       <div className="section-heading reveal"><p className="eyebrow">A LITTLE ABOUT ME</p><h2>Curious mind.<br /><span className="muted-heading">Creative builder.</span></h2><p>Getting to know the person behind the code.</p></div>
       <div className="about-layout">
-        <div className="about-photo reveal"><img src="/profile-placeholder.svg" alt="Profile placeholder for Jerome Antonio" /><span className="photo-caption">BASED IN NUEVA ECIJA, PH</span></div>
+        <div className="about-photo reveal"><img src="/JeromePic.jpg" alt="Profile placeholder for Jerome Antonio" /><span className="photo-caption">BASED IN NUEVA ECIJA, PH</span></div>
         <div className="about-content reveal">
           <p className="eyebrow">WHO I AM</p><h3>{profile.name}</h3>
           <p>{profile.about}</p>
