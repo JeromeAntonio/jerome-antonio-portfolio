@@ -10,7 +10,7 @@ export default function ExperienceSection() {
           <div className="experience-icon"><BriefcaseBusiness /></div>
           <div className="experience-main"><div className="experience-top"><div><p className="eyebrow">{item.period}</p><h3>{item.role}</h3><p className="experience-org">{item.organization}</p></div><span className="experience-number">0{i + 1}</span></div>
             <p>{item.description}</p><ul>{item.responsibilities.map(r => <li key={r}>{r}</li>)}</ul>
-            <div className="achievement-note"><Trophy size={18} /><span>{item.achievement}</span></div>
+            
           </div>
         </article>)}
       </div>
