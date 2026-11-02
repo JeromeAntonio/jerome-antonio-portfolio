@@ -39,11 +39,12 @@ export const technologies = [
   { name: 'HTML5', category: 'Frontend', mark: '5' },
   { name: 'CSS3', category: 'Frontend', mark: '3' },
   { name: 'JavaScript', category: 'Frontend', mark: 'JS' },
+  { name: 'Figma', category: 'Frontend', mark: '❖' },
   { name: 'ReactJS', category: 'Frontend', mark: '⚛' },
   { name: 'Tailwind CSS', category: 'Styling', mark: '≈' },
   { name: 'Supabase', category: 'Backend & Database', mark: 'S' },
   { name: 'Git', category: 'Tools', mark: '⌘' },
-  { name: 'GitHub', category: 'Tools', mark: 'GH' },
+  { name: 'GitHub', category: 'Tools', mark: 'GH' }
 ]
 
 export const experience = [
