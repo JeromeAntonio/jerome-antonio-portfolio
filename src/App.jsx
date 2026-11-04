@@ -7,6 +7,7 @@ import PortfolioSection from './components/PortfolioSection'
 import ExperienceSection from './components/ExperienceSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
+import NavHub from './components/NavHub/NavHub'
 
 export default function App() {
   useEffect(() => {
@@ -35,5 +36,6 @@ export default function App() {
       </main>
       <Footer />
     </div>
+    <NavHub hideLauncher />
   </>
 }

@@ -1,0 +1,26 @@
+warning: in the working copy of '.env.example', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/AboutSection.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ContactSection.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ExperienceSection.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Footer.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/HeroSection.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Navbar.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/PortfolioSection.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/WelcomeIntro.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/data/portfolioData.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/data/siteData.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/lib/supabase.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.js', LF will be replaced by CRLF the next time Git touches it
+ package-lock.json         | 1870 [32m++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ package.json              |   47 [32m+[m[31m-[m
+ src/App.jsx               |    4 [32m+[m[31m-[m
+ src/components/Navbar.jsx |   39 [32m+[m[31m-[m
+ src/main.jsx              |    1 [32m+[m
+ 5 files changed, 1909 insertions(+), 52 deletions(-)
